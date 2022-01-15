@@ -3,11 +3,11 @@ require 'httparty'
 class EasyTide
   include HTTParty
 
-  base_uri 'https://easytide.admiralty.co.uk/'
+  base_uri 'https://easytide.admiralty.co.uk'
 
   attr_reader :station_id
 
-  def initialize(station_id)
+  def initialize(station_id:)
     @station_id = station_id
   end
 

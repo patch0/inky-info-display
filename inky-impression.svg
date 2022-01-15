@@ -35,8 +35,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.02"
-     inkscape:cx="343.66957"
-     inkscape:cy="265.34094"
+     inkscape:cx="274.13058"
+     inkscape:cy="193.02365"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -46,7 +46,8 @@
      inkscape:window-height="1016"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:snap-text-baseline="true">
     <inkscape:grid
        type="xygrid"
        id="grid21"
@@ -69,126 +70,162 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <g
+       id="g638"
+       transform="translate(-1.5875,1.0583333)">
+      <text
+         xml:space="preserve"
+         style="font-size:8.46667px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="140.88235"
+         y="19.84375"
+         id="tide_time"><tspan
+           sodipodi:role="line"
+           id="tspan509"
+           x="140.88235"
+           y="19.84375"
+           style="font-size:8.46667px;text-align:center;text-anchor:middle;stroke-width:0.264583">12.34</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="141.22963"
+         y="29.104168"
+         id="tide_height"><tspan
+           sodipodi:role="line"
+           id="tspan513"
+           x="141.22963"
+           y="29.104168"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:8.46667px;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;text-anchor:middle;stroke-width:0.264583">8.4m</tspan></text>
+      <image
+         sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-flood.svg"
+         xlink:href="weather-icons/wi-flood.svg"
+         y="-2.1166663"
+         x="131.88033"
+         id="image585"
+         height="18.520834"
+         width="18.520834"
+         inkscape:svg-dpi="300"
+         preserveAspectRatio="none" />
+    </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="5.0376673"
-       y="15.176476"
+       x="2.6458335"
+       y="15.875"
        id="day"
        inkscape:label="#day"><tspan
          sodipodi:role="line"
          id="tspan10"
-         x="5.0376673"
-         y="15.176476"
+         x="2.6458335"
+         y="15.875"
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.9333px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';stroke-width:0.264583">Thursday</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="4.2841334"
-       y="27.724834"
+       x="2.6458335"
+       y="27.78125"
        id="date"
        inkscape:label="#date"><tspan
          sodipodi:role="line"
          id="tspan14"
-         x="4.2841334"
-         y="27.724834"
+         x="2.6458335"
+         y="27.78125"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:9.87778px;font-family:Lato;-inkscape-font-specification:'Lato Light';stroke-width:0.264583">13th January</tspan></text>
     <image
-       sodipodi:absref="/home/patch/src/info-display/weather-icons/wi-cloudy-windy.svg"
+       sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-cloudy-windy.svg"
+       xlink:href="weather-icons/wi-cloudy-windy.svg"
+       inkscape:label="#weather_icon_1"
+       style="image-rendering:auto"
+       y="43.351295"
+       x="51.152775"
+       id="weather_icon_1"
+       height="26.458334"
+       width="26.458334"
+       inkscape:svg-dpi="300"
+       preserveAspectRatio="xMidYMid" />
+    <image
+       sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-cloudy-windy.svg"
        xlink:href="weather-icons/wi-cloudy-windy.svg"
        preserveAspectRatio="xMidYMid"
        inkscape:svg-dpi="300"
        width="26.458334"
        height="26.458334"
-       id="weather_icon_1"
-       x="51.152775"
-       y="43.351295"
-       style="image-rendering:auto"
-       inkscape:label="#weather_icon_1" />
-    <image
-       sodipodi:absref="/home/patch/src/info-display/weather-icons/wi-cloudy-windy.svg"
-       xlink:href="weather-icons/wi-cloudy-windy.svg"
-       inkscape:label="#weather_icon_2"
-       style="image-rendering:auto"
-       y="43.351295"
-       x="83.784721"
        id="weather_icon_2"
-       height="26.458334"
-       width="26.458334"
-       inkscape:svg-dpi="300"
-       preserveAspectRatio="xMidYMid" />
-    <image
-       sodipodi:absref="/home/patch/src/info-display/weather-icons/wi-cloudy-windy.svg"
-       xlink:href="weather-icons/wi-cloudy-windy.svg"
-       inkscape:label="#weather_icon_3"
-       style="image-rendering:auto"
+       x="83.784721"
        y="43.351295"
-       x="116.41666"
-       id="weather_icon_3"
-       height="26.458334"
-       width="26.458334"
+       style="image-rendering:auto"
+       inkscape:label="#weather_icon_2" />
+    <image
+       sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-cloudy-windy.svg"
+       xlink:href="weather-icons/wi-cloudy-windy.svg"
+       preserveAspectRatio="xMidYMid"
        inkscape:svg-dpi="300"
-       preserveAspectRatio="xMidYMid" />
+       width="26.458334"
+       height="26.458334"
+       id="weather_icon_3"
+       x="116.41666"
+       y="43.351295"
+       style="image-rendering:auto"
+       inkscape:label="#weather_icon_3" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
        x="64.426033"
-       y="39.569275"
+       y="41.685944"
        id="time_1"><tspan
          sodipodi:role="line"
          id="tspan223"
          x="64.426033"
-         y="39.569275"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-width:0.264583">9pm</tspan></text>
+         y="41.685944"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">9pm</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
        x="96.953911"
-       y="39.569275"
+       y="41.685944"
        id="time_2"><tspan
          sodipodi:role="line"
          id="tspan227"
          x="96.953911"
-         y="39.569275"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-width:0.264583">12am</tspan></text>
+         y="41.685944"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">12am</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
        x="129.55762"
-       y="39.569275"
+       y="41.685944"
        id="time_3"><tspan
          sodipodi:role="line"
          id="tspan231"
          x="129.55762"
-         y="39.569275"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-width:0.264583">3am</tspan></text>
+         y="41.685944"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">3am</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
        x="31.469542"
-       y="39.569275"
+       y="41.685944"
        id="time_0"
        inkscape:label="#time_0"><tspan
          sodipodi:role="line"
          id="tspan239"
          x="31.469542"
-         y="39.569275"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-width:0.264583">6pm</tspan></text>
+         y="41.685944"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">6pm</tspan></text>
     <image
-       sodipodi:absref="/home/patch/src/info-display/weather-icons/wi-cloudy-windy.svg"
+       sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-cloudy-windy.svg"
        xlink:href="weather-icons/wi-cloudy-windy.svg"
-       inkscape:label="#weather_icon_0"
-       style="image-rendering:auto"
-       y="43.351295"
-       x="18.520834"
-       id="weather_icon_0"
-       height="26.458334"
-       width="26.458334"
+       preserveAspectRatio="xMidYMid"
        inkscape:svg-dpi="300"
-       preserveAspectRatio="xMidYMid" />
+       width="26.458334"
+       height="26.458334"
+       id="weather_icon_0"
+       x="18.520834"
+       y="43.351295"
+       style="image-rendering:auto"
+       inkscape:label="#weather_icon_0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;"
        x="31.735889"
        y="79.392838"
        id="temp_0"><tspan
@@ -196,10 +233,10 @@
          id="tspan308"
          x="31.735889"
          y="79.392838"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">8°</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;font-size:7.76111111px;">8°</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;"
        x="64.219666"
        y="79.421059"
        id="temp_1"><tspan
@@ -207,10 +244,10 @@
          id="tspan312"
          x="64.219666"
          y="79.421059"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">12°</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;font-size:7.76111111px;">12°</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;"
        x="96.851608"
        y="79.392838"
        id="temp_2"><tspan
@@ -218,10 +255,10 @@
          id="tspan316"
          x="96.851608"
          y="79.392838"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">15°</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;font-size:7.76111111px;">15°</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;"
        x="129.64053"
        y="79.3946"
        id="temp_3"><tspan
@@ -229,10 +266,10 @@
          id="tspan320"
          x="129.64053"
          y="79.3946"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">20°</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;font-size:7.76111111px;">20°</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;"
        x="31.566553"
        y="92.656738"
        id="pp_0"><tspan
@@ -240,10 +277,10 @@
          id="tspan328"
          x="31.566553"
          y="92.656738"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">10%</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;font-size:7.76111111px;">10%</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;"
        x="64.429565"
        y="92.656738"
        id="pp_1"><tspan
@@ -251,10 +288,10 @@
          id="tspan332"
          x="64.429565"
          y="92.656738"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">0%</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;font-size:7.76111111px;">0%</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;"
        x="97.061508"
        y="92.656738"
        id="pp_2"><tspan
@@ -262,10 +299,10 @@
          id="tspan336"
          x="97.061508"
          y="92.656738"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">0%</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;font-size:7.76111111px;">0%</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;"
        x="129.46237"
        y="92.656738"
        id="pp_3"><tspan
@@ -273,40 +310,40 @@
          id="tspan340"
          x="129.46237"
          y="92.656738"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">12%</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583;font-size:7.76111111px;">12%</tspan></text>
     <image
-       sodipodi:absref="/home/patch/src/info-display/weather-icons/wi-thermometer.svg"
+       sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-thermometer.svg"
        xlink:href="weather-icons/wi-thermometer.svg"
-       y="71.6035"
-       x="5.2916665"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="300"
+       width="13.229167"
+       height="13.229167"
        id="image2786"
-       height="10.583333"
-       width="10.583333"
-       inkscape:svg-dpi="300"
-       preserveAspectRatio="none" />
-    <image
-       sodipodi:absref="/home/patch/src/info-display/weather-icons/wi-umbrella.svg"
-       xlink:href="weather-icons/wi-umbrella.svg"
-       y="84.870934"
        x="5.2916665"
-       id="image5302"
-       height="10.583333"
-       width="10.583333"
-       inkscape:svg-dpi="300"
-       preserveAspectRatio="none" />
+       y="70.545166" />
     <image
-       sodipodi:absref="/home/patch/src/info-display/weather-icons/wi-strong-wind.svg"
-       xlink:href="weather-icons/wi-strong-wind.svg"
-       y="97.895836"
-       x="5.291667"
-       id="image10401"
-       height="10.583333"
-       width="10.583333"
+       sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-umbrella.svg"
+       xlink:href="weather-icons/wi-umbrella.svg"
+       preserveAspectRatio="none"
        inkscape:svg-dpi="300"
-       preserveAspectRatio="none" />
+       width="13.229167"
+       height="13.229167"
+       id="image5302"
+       x="5.2916665"
+       y="83.283432" />
+    <image
+       sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-strong-wind.svg"
+       xlink:href="weather-icons/wi-strong-wind.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="300"
+       width="13.229167"
+       height="13.229167"
+       id="image10401"
+       x="5.291667"
+       y="96.837502" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583"
        x="31.566561"
        y="105.68164"
        id="wind_0"><tspan
@@ -314,10 +351,10 @@
          id="tspan328-1"
          x="31.566561"
          y="105.68164"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">10%</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583">10</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583"
        x="64.429565"
        y="105.68164"
        id="wind_1"><tspan
@@ -325,10 +362,10 @@
          id="tspan332-9"
          x="64.429565"
          y="105.68164"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">0%</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583">0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583"
        x="97.061508"
        y="105.68164"
        id="wind_2"><tspan
@@ -336,10 +373,10 @@
          id="tspan336-9"
          x="97.061508"
          y="105.68164"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">0%</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583">1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583"
        x="129.46236"
        y="105.68164"
        id="wind_3"><tspan
@@ -347,10 +384,10 @@
          id="tspan340-9"
          x="129.46236"
          y="105.68164"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:center;text-anchor:middle;stroke-width:0.264583">12%</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111px;font-family:Lato;-inkscape-font-specification:'Lato Medium';text-align:center;text-anchor:middle;stroke-width:0.264583">2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333333px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Italic';text-align:end;text-anchor:end;stroke-width:0.264583;"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Italic';text-align:end;text-anchor:end;stroke-width:0.264583;"
        x="152.40108"
        y="114.81664"
        id="issued_at"><tspan
@@ -358,6 +395,6 @@
          id="tspan115"
          x="152.40108"
          y="114.81664"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Italic';text-align:end;text-anchor:end;stroke-width:0.264583;font-size:4.23333333px;">Forecast issued at xxxx</tspan></text>
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Italic';text-align:end;text-anchor:end;stroke-width:0.264583;font-size:4.93888889px;">Forecast issued at xxxx</tspan></text>
   </g>
 </svg>

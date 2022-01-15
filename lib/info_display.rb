@@ -5,11 +5,11 @@ require 'info_display/easy_tide'
 require 'nokogiri'
 
 class InfoDisplay
-  attr_reader :svg, :datapoint
+  attr_reader :svg, :datapoint, :easy_tide
 
   def initialize(template:)
     @datapoint = MetOfficeDatapoint.new(api_key: ENV['DATAPOINT_API_KEY'], location_id: ENV['DATAPOINT_LOCATION_ID'])
-    @easytide = EasyTide.new(station_id: ENV['EASYTIDE_PORT_ID'])
+    @easy_tide = EasyTide.new(station_id: ENV['EASYTIDE_PORT_ID'])
     @template = template
     @svg = File.open(template) { |f| Nokogiri::XML(f) }
   end
@@ -31,6 +31,9 @@ class InfoDisplay
       svg.at_css("image#weather_icon_#{i}")['xlink:href'] =
         "#{root_path}/weather-icons/wi-#{MetOfficeDatapoint::WEATHER_ICON_MAP[datapoint.three_hourly.future_forecasts[i]['W']]}.svg"
     end
+
+    svg.at_css('text#tide_time tspan').content = easy_tide.next_high_tide.time.strftime('%H:%M')
+    svg.at_css('text#tide_height tspan').content = format('%.2f', easy_tide.next_high_tide.height)
   end
 
   def to_s
