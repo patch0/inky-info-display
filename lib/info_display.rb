@@ -2,14 +2,17 @@
 
 require 'info_display/met_office_datapoint'
 require 'info_display/easy_tide'
+require 'info_display/open_weather_api'
 require 'nokogiri'
 
 class InfoDisplay
-  attr_reader :svg, :datapoint, :easy_tide
+  attr_reader :svg, :datapoint, :easy_tide, :openweather
 
   def initialize(template:)
     @datapoint = MetOfficeDatapoint.new(api_key: ENV['DATAPOINT_API_KEY'], location_id: ENV['DATAPOINT_LOCATION_ID'])
     @easy_tide = EasyTide.new(station_id: ENV['EASYTIDE_PORT_ID'])
+    @openweather = OpenWeatherApi.new(city_id: ENV['OPENWEATHER_CITY_ID'], api_key: ENV['OPENWEATHER_API_KEY'])
+
     @template = template
     @svg = File.open(template) { |f| Nokogiri::XML(f) }
     @now = Time.now
@@ -27,12 +30,13 @@ class InfoDisplay
     set_text(id: 'day', content: Time.now.strftime('%A'))
     set_text(id: 'date', content: Time.now.strftime('%d %B'))
     update_forecast
+    update_current_conditions
     update_tide
   end
 
   def update_forecast
     datapoint.three_hourly.future_forecasts.each_with_index do |forecast, i|
-      set_text(id: "time_#{i}", content: forecast['time'].strftime('%l%P'))
+      set_text(id: "time_#{i}", content: forecast['time'].localtime.strftime('%l%P'))
       set_text(id: "temp_#{i}", content: "#{forecast['T']}°")
       set_text(id: "pp_#{i}", content: "#{forecast['Pp']}%")
       set_text(id: "wind_#{i}", content: forecast['S'])
@@ -43,8 +47,14 @@ class InfoDisplay
   end
 
   def update_tide
-    set_text(id: 'tide_time', content: easy_tide.next_high_tide.time.strftime('%H:%M'))
+    set_text(id: 'tide_time', content: easy_tide.next_high_tide.time.localtime.strftime('%H:%M'))
     set_text(id: 'tide_height', content: format('%.2fm', easy_tide.next_high_tide.height))
+  end
+
+  def update_current_conditions
+    set_text(id: 'sunrise', content: openweather.sunrise.localtime.strftime('%H:%M'))
+    set_text(id: 'sunset', content: openweather.sunset.localtime.strftime('%H:%M'))
+    set_text(id: 'temp_outside', content: "#{openweather.current_temp.round}°")
   end
 
   def set_text(id: nil, content: nil, selector: nil)
