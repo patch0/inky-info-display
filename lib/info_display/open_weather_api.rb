@@ -31,4 +31,8 @@ class OpenWeatherApi
   def current_wind_speed
     current.dig('wind', 'speed') * 3600 / 1607
   end
+
+  def current_wind_dir
+    current.dig('wind', 'deg')
+  end
 end

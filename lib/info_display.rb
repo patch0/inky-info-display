@@ -6,6 +6,8 @@ require 'info_display/open_weather_api'
 require 'nokogiri'
 
 class InfoDisplay
+  WIND_DIRECTIONS = %w[N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW].freeze
+
   attr_reader :svg, :now
 
   def initialize(template:)
@@ -37,7 +39,7 @@ class InfoDisplay
   def update
     set_text(id: 'day', content: now.strftime('%A'))
     set_text(id: 'date', content: now.strftime('%d %B'))
-    set_text(id: 'last_update', content: now.strftime('Updated at %Y-%m-%d %H:%M'))
+    set_text(id: 'last_update', content: now.strftime('Updated at %H:%M'))
     update_forecast
     update_current_conditions
     update_tide
@@ -50,6 +52,7 @@ class InfoDisplay
       set_text(id: "pp_#{i}", content: "#{forecast['Pp']}%")
       set_text(id: "wind_#{i}", content: forecast['S'])
       set_weather_icon(id: "weather_icon_#{i}", icon: forecast['W'])
+      set_wind_dir(id: "wind_dir_#{i}", direction: forecast['D'])
     end
     set_text(id: 'issued_at',
              content: "Forecast issued at #{met_office.three_hourly.issued_at}")
@@ -65,6 +68,7 @@ class InfoDisplay
     set_text(id: 'sunset', content: openweather.sunset.localtime.strftime('%H:%M'))
     set_text(id: 'temp_outside', content: "#{openweather.current_temp.round}°")
     set_text(id: 'wind', content: "#{openweather.current_wind_speed.round} mph")
+    set_wind_dir(id: 'wind_dir', degrees: openweather.current_wind_dir)
     set_text(id: 'temp_inside', content: '--')
   end
 
@@ -82,6 +86,20 @@ class InfoDisplay
     return unless element
 
     element['xlink:href'] = path || icon_path_for(icon: icon)
+  end
+
+  def set_wind_dir(id: nil, direction: nil, degrees: nil, selector: nil)
+    selector ||= "image##{id}"
+    element = svg.css(selector).first
+    return unless element
+
+    degrees ||= 22.5 * (WIND_DIRECTIONS.index(direction.upcase) || 0)
+    return if degrees.zero?
+
+    x_centre = Float(element['x']) + Float(element['width']) / 2.0
+    y_centre = Float(element['y']) + Float(element['height']) / 2.0
+
+    element['transform'] = "rotate(#{degrees},#{x_centre},#{y_centre})"
   end
 
   def to_s
