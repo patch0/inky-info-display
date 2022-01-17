@@ -3,8 +3,8 @@
 $: << File.join(File.dirname(__FILE__), '../lib')
 
 require 'dotenv/load'
-require 'info_display'
+require 'inky_info_display'
 
-id = InfoDisplay.new(template: ARGV[0])
+id = InkyInfoDisplay.new(template: ARGV[0])
 id.update
 puts id.to_s

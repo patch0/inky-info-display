@@ -44,9 +44,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6075572"
-     inkscape:cx="366.61099"
-     inkscape:cy="216.72567"
+     inkscape:zoom="2.2193668"
+     inkscape:cx="188.07797"
+     inkscape:cy="104.35199"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -85,16 +85,16 @@
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-wind-deg.svg"
        xlink:href="weather-icons/wi-wind-deg.svg"
-       y="23.6661"
-       x="88.900032"
-       id="wind_dir_0"
-       height="10.583334"
-       width="10.583334"
+       preserveAspectRatio="none"
        inkscape:svg-dpi="600"
-       preserveAspectRatio="none" />
+       width="10.583334"
+       height="10.583334"
+       id="wind_dir_0"
+       x="88.900032"
+       y="23.6661" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:11.2888px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';stroke-width:0.26458"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';stroke-width:0.26458"
        x="4.981225"
        y="12.057869"
        id="day"><tspan
@@ -102,37 +102,37 @@
          id="tspan28"
          x="4.981225"
          y="12.057869"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:11.2888px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';stroke-width:0.26458">Saturday</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:9.87778px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';stroke-width:0.26458">Saturday</tspan></text>
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-umbrella.svg"
        xlink:href="weather-icons/wi-umbrella.svg"
-       preserveAspectRatio="none"
-       inkscape:svg-dpi="600"
-       width="7.9375"
-       height="7.9375"
-       id="image3838"
+       y="15.875003"
        x="73.338379"
-       y="15.875003" />
+       id="image3838"
+       height="7.9375"
+       width="7.9375"
+       inkscape:svg-dpi="600"
+       preserveAspectRatio="none" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:end;text-anchor:end;stroke-width:0.264583"
-       x="141.81665"
+       x="140.75833"
        y="11.906253"
        id="text48"><tspan
          sodipodi:role="line"
          id="tspan46"
-         x="141.81665"
+         x="140.75833"
          y="11.906253"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:end;text-anchor:end;stroke-width:0.264583">In</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:end;text-anchor:end;stroke-width:0.264583"
-       x="141.81665"
+       x="140.75833"
        y="21.16667"
        id="text52"><tspan
          sodipodi:role="line"
          id="tspan50"
-         x="141.81665"
+         x="140.75833"
          y="21.16667"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:end;text-anchor:end;stroke-width:0.264583">Out</tspan></text>
     <text
@@ -145,7 +145,7 @@
          id="tspan70-3"
          x="155.69843"
          y="11.906253"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583">20°</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583">-88°</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583"
@@ -156,20 +156,20 @@
          id="tspan70-4"
          x="155.69843"
          y="21.16667"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583">12°</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583">-88°</tspan></text>
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-thermometer.svg"
        xlink:href="weather-icons/wi-thermometer.svg"
-       preserveAspectRatio="none"
-       inkscape:svg-dpi="600"
-       width="18.520834"
-       height="18.520834"
-       id="image4085"
+       y="6.6145854"
        x="113.24165"
-       y="6.6145854" />
+       id="image4085"
+       height="18.520834"
+       width="18.520834"
+       inkscape:svg-dpi="600"
+       preserveAspectRatio="none" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:6.35000018px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583;"
        x="155.61023"
        y="54.636471"
        id="tide_time"><tspan
@@ -177,10 +177,10 @@
          id="tspan54"
          x="155.61023"
          y="54.636471"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583">12:34</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583;font-size:6.35000018px;">12:34</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:end;text-anchor:end;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:6.35000018px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:end;text-anchor:end;stroke-width:0.264583;"
        x="155.96654"
        y="63.367725"
        id="tide_height"><tspan
@@ -188,69 +188,59 @@
          id="tspan58"
          x="155.96654"
          y="63.367725"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:end;text-anchor:end;stroke-width:0.264583">8.3m</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Light';text-align:end;text-anchor:end;stroke-width:0.264583;font-size:6.35000018px;">8.3m</tspan></text>
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-flood.svg"
        xlink:href="weather-icons/wi-flood.svg"
-       preserveAspectRatio="none"
-       inkscape:svg-dpi="600"
-       width="18.520834"
-       height="18.520834"
-       id="image4178"
+       y="47.757305"
        x="113.24165"
-       y="47.757305" />
+       id="image4178"
+       height="18.520834"
+       width="18.520834"
+       inkscape:svg-dpi="600"
+       preserveAspectRatio="none" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:6.35000018px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583;"
        x="155.69138"
-       y="80.234917"
+       y="74.943245"
        id="sunrise"><tspan
          sodipodi:role="line"
          id="tspan62"
          x="155.69138"
-         y="80.234917"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583">06:36</tspan></text>
+         y="74.943245"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583;font-size:6.35000018px;">06:36</tspan></text>
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-sunrise.svg"
        xlink:href="weather-icons/wi-sunrise.svg"
-       preserveAspectRatio="none"
-       inkscape:svg-dpi="600"
-       width="18.520834"
-       height="18.520834"
-       id="image4304"
+       y="68.328667"
        x="113.24165"
-       y="68.328667" />
+       id="image4304"
+       height="18.520834"
+       width="18.520834"
+       inkscape:svg-dpi="600"
+       preserveAspectRatio="none" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:6.35000018px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583;"
        x="155.85365"
-       y="100.80626"
+       y="83.343742"
        id="sunset"><tspan
          sodipodi:role="line"
          id="tspan66"
          x="155.85365"
-         y="100.80626"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583">18:45</tspan></text>
-    <image
-       sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-sunset.svg"
-       xlink:href="weather-icons/wi-sunset.svg"
-       preserveAspectRatio="none"
-       inkscape:svg-dpi="600"
-       width="18.520834"
-       height="18.520834"
-       id="image4431"
-       x="113.24165"
-       y="88.900024" />
+         y="83.343742"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583;font-size:6.35000018px;">18:45</tspan></text>
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-thermometer.svg"
        xlink:href="weather-icons/wi-thermometer.svg"
-       y="15.875003"
-       x="52.74968"
-       id="image4085-0"
-       height="7.9375"
-       width="7.9375"
+       preserveAspectRatio="none"
        inkscape:svg-dpi="600"
-       preserveAspectRatio="none" />
+       width="7.9375"
+       height="7.9375"
+       id="image4085-0"
+       x="52.74968"
+       y="15.875003" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583;filter:url(#filter8077)"
@@ -298,24 +288,25 @@
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-day-thunderstorm.svg"
        xlink:href="weather-icons/wi-day-thunderstorm.svg"
-       preserveAspectRatio="none"
-       inkscape:svg-dpi="600"
-       width="15.875"
-       height="15.875"
-       id="weather_icon_0"
-       x="30.427118"
+       transform="matrix(1.1666667,0,0,1.1666667,-5.6003541,-4.1751286)"
+       style="filter:url(#filter8077)"
        y="21.166668"
-       style="filter:url(#filter8077)" />
+       x="30.427118"
+       id="weather_icon_0"
+       height="15.875"
+       width="15.875"
+       inkscape:svg-dpi="600"
+       preserveAspectRatio="none" />
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-wind-deg.svg"
        xlink:href="weather-icons/wi-wind-deg.svg"
-       preserveAspectRatio="none"
-       inkscape:svg-dpi="600"
-       width="18.520834"
-       height="18.520834"
-       id="wind_dir"
+       y="27.185944"
        x="113.24165"
-       y="27.185944" />
+       id="wind_dir"
+       height="18.520834"
+       width="18.520834"
+       inkscape:svg-dpi="600"
+       preserveAspectRatio="none" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458334;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:2.11666673,2.11666673;stroke-dashoffset:0"
        d="M 112.5802,109.53751 V 6.350002"
@@ -323,13 +314,13 @@
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-strong-wind.svg"
        xlink:href="weather-icons/wi-strong-wind.svg"
-       preserveAspectRatio="none"
-       inkscape:svg-dpi="600"
-       width="7.9375"
-       height="7.9375"
-       id="image6638"
+       y="15.610417"
        x="93.927078"
-       y="15.610417" />
+       id="image6638"
+       height="7.9375"
+       width="7.9375"
+       inkscape:svg-dpi="600"
+       preserveAspectRatio="none" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583"
@@ -377,23 +368,23 @@
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-day-thunderstorm.svg"
        xlink:href="weather-icons/wi-day-thunderstorm.svg"
-       y="40.481258"
-       x="30.427118"
-       id="weather_icon_1"
-       height="15.875"
-       width="15.875"
+       preserveAspectRatio="none"
        inkscape:svg-dpi="600"
-       preserveAspectRatio="none" />
+       width="18.520834"
+       height="18.520834"
+       id="weather_icon_1"
+       x="29.897951"
+       y="39.833908" />
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-wind-deg.svg"
        xlink:href="weather-icons/wi-wind-deg.svg"
-       y="42.862507"
-       x="88.900032"
-       id="wind_dir_1"
-       height="10.583334"
-       width="10.583334"
+       preserveAspectRatio="none"
        inkscape:svg-dpi="600"
-       preserveAspectRatio="none" />
+       width="10.583334"
+       height="10.583334"
+       id="wind_dir_1"
+       x="88.900032"
+       y="42.862507" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583"
@@ -441,23 +432,23 @@
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-day-thunderstorm.svg"
        xlink:href="weather-icons/wi-day-thunderstorm.svg"
-       y="59.795853"
-       x="30.427118"
-       id="weather_icon_2"
-       height="15.875"
-       width="15.875"
+       preserveAspectRatio="none"
        inkscape:svg-dpi="600"
-       preserveAspectRatio="none" />
+       width="18.520834"
+       height="18.520834"
+       id="weather_icon_2"
+       x="29.897951"
+       y="59.148499" />
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-wind-deg.svg"
        xlink:href="weather-icons/wi-wind-deg.svg"
-       y="62.706268"
-       x="89.429199"
-       id="wind_dir_2"
-       height="10.583334"
-       width="10.583334"
+       preserveAspectRatio="none"
        inkscape:svg-dpi="600"
-       preserveAspectRatio="none" />
+       width="10.583334"
+       height="10.583334"
+       id="wind_dir_2"
+       x="89.429199"
+       y="62.706268" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583"
@@ -505,23 +496,23 @@
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-day-thunderstorm.svg"
        xlink:href="weather-icons/wi-day-thunderstorm.svg"
-       y="98.425034"
-       x="30.427118"
-       id="weather_icon_4"
-       height="15.875"
-       width="15.875"
+       preserveAspectRatio="none"
        inkscape:svg-dpi="600"
-       preserveAspectRatio="none" />
+       width="18.520834"
+       height="18.520834"
+       id="weather_icon_4"
+       x="29.897951"
+       y="97.777687" />
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-wind-deg.svg"
        xlink:href="weather-icons/wi-wind-deg.svg"
-       y="101.33545"
-       x="88.900032"
-       id="wind_dir_4"
-       height="10.583334"
-       width="10.583334"
+       preserveAspectRatio="none"
        inkscape:svg-dpi="600"
-       preserveAspectRatio="none" />
+       width="10.583334"
+       height="10.583334"
+       id="wind_dir_4"
+       x="88.900032"
+       y="101.33545" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';text-align:end;text-anchor:end;stroke-width:0.264583"
@@ -569,23 +560,23 @@
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-day-thunderstorm.svg"
        xlink:href="weather-icons/wi-day-thunderstorm.svg"
-       y="79.110443"
-       x="30.427118"
-       id="weather_icon_3"
-       height="15.875"
-       width="15.875"
+       preserveAspectRatio="none"
        inkscape:svg-dpi="600"
-       preserveAspectRatio="none" />
+       width="18.520834"
+       height="18.520834"
+       id="weather_icon_3"
+       x="29.897951"
+       y="78.463089" />
     <image
        sodipodi:absref="/home/patch/src/github.com/patch0/inky-info-display/weather-icons/wi-wind-deg.svg"
        xlink:href="weather-icons/wi-wind-deg.svg"
-       y="82.020859"
-       x="88.900032"
-       id="wind_dir_3"
-       height="10.583334"
-       width="10.583334"
+       preserveAspectRatio="none"
        inkscape:svg-dpi="600"
-       preserveAspectRatio="none" />
+       width="10.583334"
+       height="10.583334"
+       id="wind_dir_3"
+       x="88.900032"
+       y="82.020859" />
     <text
        xml:space="preserve"
        id="text8337"
@@ -603,14 +594,25 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:0.264583">Updated: 08:41 </tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:0.264583"
        x="155.88541"
-       y="38.439556"
+       y="37.910389"
        id="wind"><tspan
          sodipodi:role="line"
          id="tspan483"
          x="155.88541"
-         y="38.439556"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:0.264583">88 mph</tspan></text>
+         y="37.910389"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;text-anchor:end;stroke-width:0.264583">88 km/h</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.17222px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.264583"
+       x="45.24374"
+       y="12.057869"
+       id="date"><tspan
+         sodipodi:role="line"
+         id="tspan3135"
+         x="45.24374"
+         y="12.057869"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:9.17222px;font-family:Lato;-inkscape-font-specification:'Lato Light';stroke-width:0.264583">88rd November</tspan></text>
   </g>
 </svg>
