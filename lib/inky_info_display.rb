@@ -2,7 +2,6 @@
 
 require 'inky_info_display/met_office_datapoint'
 require 'inky_info_display/easy_tide'
-require 'inky_info_display/open_weather_api'
 require 'inky_info_display/wunderground'
 require 'nokogiri'
 require 'sun'
@@ -29,10 +28,6 @@ class InkyInfoDisplay
   end
 
   alias tides easy_tide
-
-  def openweather
-    @openweather ||= OpenWeatherApi.new(city_id: ENV['OPENWEATHER_CITY_ID'], api_key: ENV['OPENWEATHER_API_KEY'])
-  end
 
   def wunderground
     @wunderground ||= Wunderground.new(station_id: ENV['WUNDERGROUND_STATION_ID'], api_key: ENV['WUNDERGROUND_API_KEY'])
