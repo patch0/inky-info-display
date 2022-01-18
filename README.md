@@ -23,7 +23,7 @@ This software is configured through environment variables.  There is a `.env.exa
 
 and put these into the `.env`
 
-### Configuring the weahter forecast
+### Configuring the weather forecast
 
 For the weather forecast you'll want a Met Office location ID.  This is not the easiest to get hold of.
 
@@ -44,9 +44,13 @@ gives
     "region": "ee",
     "unitaryAuthArea": "Essex"
   }
-]`
+]
 ```
 so pick out the `id` of `350563` and put that in `DATAPOINT_LOCATION_ID`
+
+### Configuring current conditions
+
+I've decided to use [Weather Underground](https://www.wunderground.com/) to snarf data from local personal weather stations to give an idea of what it is outside nearby.  Just find your nearest weather station, and use its ID in your `.env`.  E.g. for [Dunoon](https://www.wunderground.com/dashboard/pws/IDUNOO13), you'd put in `IDUNOO13` is your `WUNDERGROUND_STATION_ID`.  Don't forget you need a `WUNDERGROUND_API_KEY` for this to work.
 
 ### Configuring the tide forecast
 
