@@ -80,8 +80,8 @@ class InkyInfoDisplay
   end
 
   def update_current_conditions
-    set_text(id: 'temp_outside', content: "#{current_conditions.current_temp.round}°")
-    set_text(id: 'wind', content: "#{current_conditions.current_wind_speed.round} km/h")
+    set_text(id: 'temp_outside', content: "#{current_conditions.current_temp&.round}°")
+    set_text(id: 'wind', content: "#{current_conditions.current_wind_speed&.round} km/h")
     set_wind_dir(id: 'wind_dir', degrees: current_conditions.current_wind_dir)
     set_text(id: 'temp_inside', content: '--')
   end
