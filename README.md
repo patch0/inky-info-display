@@ -1,6 +1,8 @@
 # Inky Info Display
 
-This repo uses a template SVG to populate an information display for an Inky Impression
+This repo uses a template SVG to populate an information display for the [Pimoroni Inky Impression](https://pimoroni.com/impression).
+
+This follows in the footsteps of [Andrew Godwin's weatherboard](https://github.com/andrewgodwin/weatherboard), using a slightly different approach. I was originally put on to Andrew's work through Matthew Somerville's [write up about it](https://dracos.co.uk/wrote/inky-dashboard/).
 
 ![Inky Impression display showing the weather](inky-info-display.jpg)
 
