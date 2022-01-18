@@ -3,8 +3,8 @@
 require 'inky_info_display/met_office_datapoint'
 require 'inky_info_display/easy_tide'
 require 'inky_info_display/wunderground'
+require 'inky_info_display/sun_moon'
 require 'nokogiri'
-require 'sun'
 
 class InkyInfoDisplay
   WIND_DIRECTIONS = %w[N NNE NE ENE E ESE SE SSE S SSW SW WSW W WNW NW NNW].freeze
@@ -18,7 +18,8 @@ class InkyInfoDisplay
   end
 
   def met_office_datapoint
-    @met_office_datapoint ||= MetOfficeDatapoint.new(api_key: ENV['DATAPOINT_API_KEY'], location_id: ENV['DATAPOINT_LOCATION_ID'])
+    @met_office_datapoint ||= MetOfficeDatapoint.new(api_key: ENV['DATAPOINT_API_KEY'],
+                                                     location_id: ENV['DATAPOINT_LOCATION_ID'])
   end
 
   alias forecast met_office_datapoint
@@ -35,12 +36,8 @@ class InkyInfoDisplay
 
   alias current_conditions wunderground
 
-  def latitude
-    Float(ENV['LATITUDE'])
-  end
-
-  def longitude
-    Float(ENV['LONGITUDE'])
+  def sun_moon
+    SunMoon.new(now: now, latitude: Float(ENV['LATITUDE']), longitude: Float(ENV['LONGITUDE']))
   end
 
   def root_path
@@ -51,12 +48,19 @@ class InkyInfoDisplay
     set_text(id: 'day', content: now.strftime('%A'))
     set_text(id: 'date', content: now.strftime('%d %B'))
     set_text(id: 'last_update', content: now.strftime('Updated at %H:%M'))
-    set_text(id: 'sunrise', content: sunrise.localtime.strftime('%H:%M'))
-    set_text(id: 'sunset', content: sunset.localtime.strftime('%H:%M'))
 
     update_forecast
     update_current_conditions
+    update_sun_moon
     update_tide
+  end
+
+  def update_sun_moon
+    set_text(id: 'sunrise', content: sun_moon.sunrise.localtime.strftime('%H:%M'))
+    set_text(id: 'sunset', content: sun_moon.sunset.localtime.strftime('%H:%M'))
+    set_text(id: 'moonrise', content: sun_moon.moonrise&.localtime&.strftime('%H:%M') || '--')
+    set_text(id: 'moonset', content: sun_moon.moonset&.localtime&.strftime('%H:%M' || '--'))
+    set_weather_icon(id: 'moon_phase_icon', icon: "moon-alt-#{sun_moon.moon_phase_icon}")
   end
 
   def update_forecast
@@ -110,14 +114,6 @@ class InkyInfoDisplay
     y_centre = Float(element['y']) + Float(element['height']) / 2.0
 
     element['transform'] = "rotate(#{degrees},#{x_centre},#{y_centre})"
-  end
-
-  def sunrise
-    @sunrise ||= Sun.sunrise(now, latitude, longitude)
-  end
-
-  def sunset
-    @sunset ||= Sun.sunset(now, latitude, longitude)
   end
 
   def to_s
