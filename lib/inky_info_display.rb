@@ -107,7 +107,7 @@ class InkyInfoDisplay
     element = svg.css(selector).first
     return unless element
 
-    degrees ||= 22.5 * (WIND_DIRECTIONS.index(direction.upcase) || 0)
+    degrees ||= 22.5 * (WIND_DIRECTIONS.index(direction&.upcase) || 0)
     return if degrees.zero?
 
     x_centre = Float(element['x']) + Float(element['width']) / 2.0
