@@ -155,8 +155,9 @@ class InkyInfoDisplay
         data['D']
       end
 
+      # Convert mph to km/h
       def wind_speed
-        Integer(data['S']) / 1.609344
+        Integer(data['S']) * 1.609344
       end
     end
   end
