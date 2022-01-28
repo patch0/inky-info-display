@@ -45,8 +45,8 @@ class InkyInfoDisplay
   end
 
   def update
-    set_text(id: 'day', content: now.strftime('%A'))
-    set_text(id: 'date', content: now.strftime('%d %B'))
+    set_text(selector: 'tspan#day', content: now.strftime('%A'))
+    set_text(selector: 'tspan#date', content: now.strftime('%d %B'))
     set_text(id: 'last_update', content: now.strftime('Updated at %H:%M'))
 
     update_forecast
