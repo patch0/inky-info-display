@@ -2,7 +2,7 @@
 
 require 'inky_info_display/met_office_datapoint'
 require 'inky_info_display/easy_tide'
-require 'inky_info_display/wunderground'
+require 'inky_info_display/influx_db'
 require 'inky_info_display/sun_moon'
 require 'nokogiri'
 
@@ -34,7 +34,11 @@ class InkyInfoDisplay
     @wunderground ||= Wunderground.new(station_id: ENV['WUNDERGROUND_STATION_ID'], api_key: ENV['WUNDERGROUND_API_KEY'])
   end
 
-  alias current_conditions wunderground
+  def influx_db
+    @influx_db||= InfluxDb.new
+  end
+
+  alias current_conditions influx_db
 
   def sun_moon
     SunMoon.new(now: now, latitude: Float(ENV['LATITUDE']), longitude: Float(ENV['LONGITUDE']))
@@ -80,10 +84,10 @@ class InkyInfoDisplay
   end
 
   def update_current_conditions
-    set_text(id: 'temp_outside', content: "#{current_conditions.current_temp&.round}°")
+    set_text(id: 'temp_inside', content: "#{current_conditions.current_temp_inside&.round}°")
+    set_text(id: 'temp_outside', content: "#{current_conditions.current_temp_outside&.round}°")
     set_text(id: 'wind', content: "#{current_conditions.current_wind_speed&.round} km/h")
-    set_wind_dir(id: 'wind_dir', degrees: current_conditions.current_wind_dir)
-    set_text(id: 'temp_inside', content: '--')
+    set_wind_dir(id: 'wind_dir', degrees: 180 + current_conditions.current_wind_dir)
   end
 
   def set_text(id: nil, content: nil, selector: nil)
